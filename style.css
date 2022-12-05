@@ -3,6 +3,8 @@ body {
     /* overflow: hidden; */
     background-color: #000212;
     color: white;
+    box-sizing: border-box;
+    max-width: 100vw;
   }
   html, body {
     height: 100%;
