@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    /* overflow: hidden; */
+    background-color: #090921;
+  }
+  html, body {
+    height: 100%;
+  }
+  canvas {
+    display: block;
+  }
+
+  h1{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: calc(100vw - 50vw - 250px);
+    top: 0;
+  }
+  h2{
+    color: white;
+    font-size: 48px;
+  }
+
+  header{
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4cafce;
+  }
+
+  canvas{
+    /* border: 2px red solid; */
+    position: relative;
+    z-index: 0;
+  }
