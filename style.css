@@ -1,34 +1,57 @@
 body {
     margin: 0;
     /* overflow: hidden; */
-    background-color: #090921;
+    background-color: #000212;
+    color: white;
   }
   html, body {
     height: 100%;
   }
   canvas {
     display: block;
+    background-color: #000212;
+  }
+
+  .auora-01{
+
+
+
+    position: absolute;
+    width: 2442px;
+    height: 963px;
+   
+    top: -481px;
+    
+    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 52, 101, 0.32) 10.94%, rgba(13, 34, 73, 0) 100%);
+
   }
 
   h1{
     color: white;
     font-size: 80px;
     position: absolute;
-    left: calc(100vw - 50vw - 250px);
+    left: calc(100vw - 50vw - 850px);
     top: 0;
   }
+  
   h2{
     color: white;
     font-size: 48px;
   }
 
   header{
-    width: 100vw;
+    max-width: 100vw;
     height: 64px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: #4cafce;
+    padding: 0 80px;
+ 
+    
+    background: linear-gradient(90deg, rgba(190, 190, 190, 0.028) 0%, rgba(190, 190, 190, 0.06) 50.68%, rgba(190, 190, 190, 0) 100%);
+    mix-blend-mode: normal;
+    border-bottom: 1px solid #313250;
+    backdrop-filter: blur(8px);
   }
 
   canvas{
